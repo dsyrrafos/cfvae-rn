@@ -3,7 +3,7 @@
 This repository contains the implementation and experimental evaluation of the **Conditional Flow Variational Autoencoder (cFVAE)**, a conditional generative model for uncertainty-aware network performance prediction.
 The model combines **conditional VAEs** with **normalizing flows** to learn the full conditional distribution of per-path delay given the network state.
 
-![Conditional Flow VAE architecture](./figures/cvae_architecture.png)
+![Conditional Flow VAE architecture](./figures/cfvae_architecture.png)
 
 
 ---
@@ -42,12 +42,6 @@ The code is written in Python 3.11.10. To install dependencies just run the foll
 ```
 conda env create -f environment.yml
 ```
-
----
-
-Here is a **polished, clear, and GitHub-ready** version of the sections you asked for. It matches the tone of a research codebase README and keeps the instructions simple and reproducible.
-
-You can paste this **directly** into your `README.md`.
 
 ---
 
